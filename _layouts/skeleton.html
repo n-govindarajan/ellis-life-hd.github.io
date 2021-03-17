@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    {% if page.style %}<link rel="stylesheet" href="/assets/css/{{ page.style }}.css">{% endif %}
+    {% if page.layout == "main" %}<link rel="stylesheet" href="/assets/css/carousel.css">{% endif %}
     <title>{{ site.title }}</title>
   </head>
   <body>
