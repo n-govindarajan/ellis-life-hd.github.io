@@ -1,4 +1,21 @@
-body {
-    padding-top: 5rem;
-    color: #5a5a5a;
+.ellis-color-row {
+  height: 5px;
+}
+.ellis-bg-red {
+	background-color: #E48879;	
+}
+.ellis-bg-green {
+	background-color: #C0EA96;
+}
+.ellis-bg-yellow {
+	background-color: #F5E364;
+}
+.ellis-bg-orange {
+	background-color: #E8A062;
+}
+.ellis-bg-blue {
+	background-color: #83ADE5;
+}
+#navbar-top {
+  height: 75px;
 }
