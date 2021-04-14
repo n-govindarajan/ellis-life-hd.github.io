@@ -5,6 +5,7 @@ description: >-
 baseurl: ""
 url: "https://ellis-life-heidelberg.eu/"
 sass:
-    sass_dir: _sass
-sass:
-    style: compressed
+  sass_dir: _sass
+  style: compressed
+  load_paths:
+    - _sass/bootstrap
