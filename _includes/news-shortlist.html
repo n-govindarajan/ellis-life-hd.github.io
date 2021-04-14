@@ -1,0 +1,13 @@
+<div class="newest-post-wrapper container brand">
+    <div class="newest-post">
+        {% for post in site.posts limit:1 %}
+        <p class="news-new">NEW</p>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h2>{{ post.excerpt }}</h2>
+        {% endfor %}
+    </div>
+    <ul>
+        <li class="right-arrow"><a href="/news">All news</a></li>
+        <li class="right-arrow"><a href="/events">All events</a></li>
+    </ul>
+</div>

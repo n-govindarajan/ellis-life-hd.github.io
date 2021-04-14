@@ -4,3 +4,7 @@ description: >-
   ELLIS Life Heidelberg Unit Website.
 baseurl: ""
 url: "https://ellis-life-heidelberg.eu/"
+sass:
+    sass_dir: _sass
+sass:
+    style: compressed

@@ -1,0 +1,393 @@
+---
+---
+
+$primary: #B83374;
+$dark: #555;
+$container-max-widths: (
+  xl: 1370px
+);
+
+@import 'bootstrap/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,700');
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto';
+  color: $dark;
+}
+
+h1 {
+  font-size: 30pt;
+  font-weight: 700;
+  transform:scaleX(1.1);
+  transform-origin: 0;
+  color: #777;
+}
+
+h2 {
+  font-size: 25pt;
+  font-weight: 700;
+  transform:scaleX(1.1);
+  transform-origin: 0;
+}
+
+p {
+  font-size: 14pt;
+  font-weight: 300;
+}
+
+h1 strong {
+  font-size: 30pt;
+  font-weight: 700;
+  color: #333;
+}
+
+.brand ul {
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.brand li {
+  margin-right: 3vw;
+  font-size: 0.9vw;
+  font-weight: 600;
+  color: $primary;
+  float: left;
+  z-index: 99999;
+}
+
+.brand li::after {
+  content:' \203A'
+}
+
+.brand li a {
+  border-bottom: 1px solid $primary;
+  padding-bottom: 0;
+}
+
+.brand li a:hover {
+  border-bottom: 1px solid darken($primary, 15%);
+  text-decoration: none;
+}
+
+.dkfz {
+  color: #0730BB !important;
+}
+
+.dkfz a {
+  color: #0730BB !important;
+  border-bottom: 1px solid #0730BB !important;
+}
+
+.dkfz a:hover {
+  border-bottom: 1px solid darken(#0730BB, 15%) !important;
+}
+
+.embl {
+  color: #12983C !important;
+}
+
+.embl a {
+  color: #12983C !important;
+  border-bottom: 1px solid #12983C !important;
+}
+
+.embl a:hover {
+  border-bottom: 1px solid darken(#12983C, 15%) !important;
+}
+
+.unihd {
+  color: #9E1212 !important;
+}
+
+.unihd a {
+  color: #9E1212 !important;
+  border-bottom: 1px solid #9E1212 !important;
+}
+
+.unihd a:hover {
+  border-bottom: 1px solid darken(#9E1212, 15%) !important;
+}
+
+.ellis-color-row {
+  height: 5px;
+  margin: 0;
+}
+.ellis-bg-red {
+	background-color: #E48879;	
+}
+.ellis-bg-green {
+	background-color: #C0EA96;
+}
+.ellis-bg-yellow {
+	background-color: #F5E364;
+}
+.ellis-bg-orange {
+	background-color: #E8A062;
+}
+.ellis-bg-blue {
+	background-color: #83ADE5;
+}
+.navbar-collapse {
+  background-color: white;
+}
+.navbar {
+  z-index: 99999;
+}
+.navbar-brand img {
+  width: 300px;
+}
+.nav-link {
+  font-size: 13pt;
+}
+
+.newest-post-wrapper {
+  max-width: 1040px;
+}
+
+.newest-post {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5vw;
+  border: 1px solid $primary;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.news-new {
+  font-weight: 700;
+  font-size: 1vw;
+  color: $primary;
+  margin: 0;
+  padding: 0;
+  line-height: 0.5;
+}
+
+.newest-post h1 {
+  font-weight: 700;
+  font-size: 1.5vw;
+  color: #555;
+}
+
+.newest-post h1 a {
+  color: inherit;
+}
+
+.newest-post h2 {
+  margin-top: 1vw;
+  font-weight: 300;
+  font-size: 1vw;
+}
+
+.brand-research {
+  position: relative;
+}
+
+.rot-30 {
+  transform: rotate(30deg);
+  transform-origin: 30% 70%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.brand-research-text {
+  position: absolute;
+  right: 7%;
+  top: 38%;
+}
+
+.lead {
+  font-size: 2vw;
+  font-weight: 700;
+  transform:scaleX(1.1);
+  transform-origin: 0;
+  line-height: 120%;
+  color: #777;
+}
+
+.lead strong {
+  font-weight: inherit;
+  color: #333;
+}
+
+.lead a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.lead a:hover {
+  color: inherit;
+}
+
+.brand-research-text a {
+  font-size: 1vw;
+}
+
+.people-photo {
+  float: left;
+}
+
+.people-photo img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.people-name {
+  float: left;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 1vw;
+}
+
+.people-name p {
+  margin: 0;
+  font-size: 14pt;
+  font-weight: 300;
+}
+
+.people-tag {
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.brand-institutes .img {
+  width: 100%;
+  height: 580px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img-dkfz {
+  background-image: url('/assets/img/dkfz.png');
+  background-size: auto 140%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.img-embl {
+  background-image: url('/assets/img/embl.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.img-unihd {
+  background-image: url('/assets/img/uni-hd.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.brand-institutes li {
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  margin: 0;
+  min-height: 500px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px)  {
+  footer {
+    min-height: 650px;
+  }
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-menu {
+  position: absolute;
+  left: 17vw;
+  top: 100px;
+  width: 350px;
+}
+
+.footer-menu hr {
+  display: inline-block;
+  border-color: #fff;
+  width: 100px;
+}
+
+.footer-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-head img {
+  width: 200px;
+}
+
+.flexline{
+  flex-grow:1;
+  height: 1px;
+  background-color: #fff;
+}
+
+footer ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+footer li {
+  font-size: 11pt;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+footer .copyright {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.hr-primary {
+  border: 1px solid $primary;
+}
+
+.plain {
+  color: #555;
+}
+
+.plain:hover {
+  color: #555;
+}
+
+.date {
+  font-size: 11pt;
+  font-weight: 400;
+  color: #777;
+  transform:scaleX(1.1);
+  transform-origin: 0;
+  margin-top: 10px;
+}

@@ -1,0 +1,39 @@
+- name: Oliver Stegle
+  photo: os.png
+  groups:
+    - EMBL
+    - DKFZ
+  websites:
+    - EMBL: "#"
+    - DKFZ: "#"
+  comment: "Together with his research group in DKFZ and EMBL, Oliver is interested in computational genomics and system genetics."
+- name: Anna Kreshuk
+  photo: ak.png
+  groups:
+    - EMBL
+  websites:
+    - "#"
+  comment: "The Kreshuk group develops machine-learning-based methods and tools for automatic segmentation, classification and analysis of biological images."
+- name: Björn Ommer
+  photo: bo.png
+  groups:
+    - Heidelberg University
+  websites:
+    - "#"
+  comment: "The Ommer group works on computer vision, machine learning, cognitive science, biomedical image analysis, and the digital humanities; esp. semantic scene understanding, visual synthesis and interpretable AI, deep learning & self-supervision, deep metric and representation learning."
+- name: Carsten Rother
+  photo: cr.png
+- name: Fred A. Hamprecht
+  photo: fah.png
+- name: Lena Maier-Hein
+  photo: lmh.png
+- name: Klaus H. Maier-Hein
+  photo: khmh.png
+- name: Ullrich Köthe
+  photo: uk.png
+- name: Wolfgang Huber
+  photo: wh.png
+- name: Julio Saez-Rodriguez
+  photo: jsr.png
+- name: Jan Korbel
+  photo: jk.png
