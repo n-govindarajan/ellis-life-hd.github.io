@@ -143,8 +143,11 @@ h1 strong {
 .navbar {
   z-index: 99999;
 }
+.navbar-brand {
+  margin-right: 0.5em;
+}
 .navbar-brand img {
-  width: 300px;
+  height: 40px;
 }
 .nav-link {
   font-size: 13pt;
@@ -300,7 +303,7 @@ h1 strong {
 }
 
 footer {
-  background-color: #555;
+  background-color: #3c3838;
   color: white;
   margin: 0;
   min-height: 500px;
@@ -325,7 +328,7 @@ footer a:hover {
 .footer-menu {
   position: absolute;
   left: 17vw;
-  top: 100px;
+  top: 120px;
   width: 350px;
 }
 
@@ -340,10 +343,12 @@ footer a:hover {
   flex-direction: row;
   align-items: center;
   margin-bottom: 20px;
+  padding-top: 50px;
 }
 
 .footer-head img {
-  width: 200px;
+  height: 40px;
+  margin-right: 20px;
 }
 
 .flexline{
@@ -393,5 +398,5 @@ footer .copyright {
 }
 
 .carousel-inner img {
-  height: 550px;
+  height: 525px;
 }
