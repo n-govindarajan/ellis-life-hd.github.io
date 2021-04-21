@@ -1,6 +1,7 @@
 ---
-layout: news
+layout: post
 title: "ELLIS PhD Program: Call for Applications"
+category: news
 ---
 
 The ELLIS PhD Program opens call for applications.  
