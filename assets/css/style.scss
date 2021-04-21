@@ -3,6 +3,7 @@
 
 $primary: #B83374;
 $dark: #555;
+$bg: #3c3838;
 $container-max-widths: (
   xl: 1370px
 );
@@ -19,6 +20,16 @@ html, body {
 body {
   font-family: 'Roboto';
   color: $dark;
+  background: $bg;
+}
+
+header {
+  background: white;
+}
+
+main {
+  background: white;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -366,10 +377,6 @@ footer a:hover {
   flex-grow:1;
   height: 1px;
   background-color: #fff;
-}
-
-footer{
-  margin-top: 100px;
 }
 
 footer ul {
