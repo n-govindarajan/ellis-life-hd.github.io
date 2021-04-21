@@ -156,7 +156,8 @@ h1 strong {
   margin-right: 0.5em;
 }
 .navbar-brand img {
-  height: 40px;
+  image-rendering: crisp-edges;
+  height: 50px;
 }
 .nav-link {
   font-size: 13pt;
@@ -356,7 +357,8 @@ footer a:hover {
 }
 
 .footer-head img {
-  height: 40px;
+  image-rendering: crisp-edges;
+  height: 50px;
   margin-right: 20px;
 }
 
