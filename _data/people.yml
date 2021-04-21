@@ -1,39 +1,265 @@
 - name: Oliver Stegle
   photo: os.png
-  groups:
-    - EMBL
-    - DKFZ
   websites:
-    - EMBL: "#"
-    - DKFZ: "#"
-  comment: "Together with his research group in DKFZ and EMBL, Oliver is interested in computational genomics and system genetics."
+    - EMBL: https://www.embl.de/research/units/genome_biology/stegle/index.html
+    - DKFZ: https://www.dkfz.de/en/bioinformatik-genomik-systemgenetik/
+  description: Together with his research group in DKFZ and EMBL, Oliver is interested in computational genomics and system genetics.
 - name: Anna Kreshuk
   photo: ak.png
-  groups:
-    - EMBL
   websites:
-    - "#"
-  comment: "The Kreshuk group develops machine-learning-based methods and tools for automatic segmentation, classification and analysis of biological images."
+    - EMBL: https://www.embl.de/research/units/cbb/kreshuk/index.html
+  description: |
+    **Previous and current research**
+
+    Machine learning is advancing the state of the art in image analysis more rapidly than ever before:
+    for many problems in natural image analysis, automated methods are now approaching parity with humans.
+    One of the major advantages of learning-based approaches is their general applicability: tailoring to
+    a particular problem is performed by providing suitable training data, while the core of the algorithm
+    remains unchanged. To bring these methods to members of the life science community without computer
+    vision expertise, we have developed a toolkit for interactive learning and segmentation (ilastik).
+
+    While the algorithms in ilastik generalise to provide user-friendly solutions to a wide array of
+    image analysis problems, the most challenging bioimage datasets require a tailored approach. Our group
+    is particularly interested in solving challenging segmentation problems for light or electron microscopy
+    (LM or EM), in 3D and at large scale. Most recently, we have developed methods and tools to segment all
+    cells and nuclei in a juvenile worm of the species Platynereis dumerilii (EM, Vergara et al., bioRxiv
+    2020), as well as in various plant organs and tissues (LM, Wolny, Cerrone et al., eLife 2020).
+
+    **Future projects and goals**
+
+    All machine learning algorithms require user guidance at the training stage, but deep learning – the
+    driver of the current computer vision revolution – is even more annotation hungry. This problem is
+    especially acute in biological imaging, where annotation of ground-truth data cannot easily be outsourced
+    to non-experts, and changes in experimental conditions can require retraining. Besides the annotation burden,
+    the training process itself depends upon non-trivial expertise in the choice and tuning of hyperparameters.
+    Our group is currently working on methods and training strategies that would reduce the requirements on the
+    amount of training data, which we hope to incorporate into ilastik. We are also interested in creative
+    combinations of deep learning and microscopy (Wagner, Beuttenmuelluer et al., bioRxiv 2020) and learning-based
+    analysis of morphology.
 - name: Björn Ommer
   photo: bo.png
-  groups:
-    - Heidelberg University
   websites:
-    - "#"
-  comment: "The Ommer group works on computer vision, machine learning, cognitive science, biomedical image analysis, and the digital humanities; esp. semantic scene understanding, visual synthesis and interpretable AI, deep learning & self-supervision, deep metric and representation learning."
+    - Heidelberg University: https://hci.iwr.uni-heidelberg.de/compvis
+  description: |
+    **Visual Synthesis and Interpretable AI with Disentangled Representations**
+
+    Deep learning has significantly improved the expressiveness of representations. However, present research
+    still fails to understand why and how they work and cannot reliably predict when they fail. Moreover, the
+    different characteristics of our physical world are commonly intermingled, making it impossible to study them
+    individually. We incorporate novel paradigms for disentangling multiple object characteristics and present
+    interpretable models to translate arbitrary network representations into semantically meaningful, interpretable
+    concepts. We also obtain disentangled generative models that explain their latent representations by synthesis
+    while being able to alter different object characteristics individually. 
+
+    **Deep Metric and Representation Learning**
+
+    To understand visual content, computers need to learn what makes images similar. This similarity learning
+    directly implies a representation of the visual content that captures the inherent structure of the data. We
+    present several approaches that can be applied on top of arbitrary deep metric learning methods and various
+    network architectures. Key issues that these works tackle include improving generalization and transfer to novel
+    data, shared feature learning, and adaptive sampling strategies based on reinforcement learning to effectively
+    utilize large amounts of training data. 
 - name: Carsten Rother
   photo: cr.png
+  websites:
+    - Heidelberg University: https://hci.iwr.uni-heidelberg.de/vislearn/people/carsten-rother/
+  description: |
+    **Machine Learning**
+
+    focusing on Explainable Machine Learning and Deep Learning
+        
+    **Combinatorial Optimization**
+
+    focusing on Graphical Models, Diversity, and Large-Scale Optimization
+        
+    **Scene Understanding**
+
+    focusing on 6D Pose estimation, Dense Matching, and Instance Recognition
+      
+    **Natural Science**
+
+    focusing on BioImaging, Medicine and related fields
+
+    Training Data Generation
+    focusing on Mixed Realty, Ground Truth Capture and Lightfields
 - name: Fred A. Hamprecht
   photo: fah.png
+  websites:
+    - Heidelberg University: https://hci.iwr.uni-heidelberg.de/ial
+  description: |
+    Hi!
+
+    I develop machine learning algorithms for image analysis. More specifically, I am interested in principled methods
+    that ingest images or video, and output "structured" predictions, such as the partitioning of an image into its
+    constituent parts, or the tracking of all objects in a video. Most of our applications are in the life sciences;
+    for instance, we try and segment all cells in a brain or a plant, or track virus components before assembly.
+
+    My focus is on methods that have a sound mathematical background, such as combinatorial optimization or algebraic
+    graph theory, while being widely applicable and useful in practice. I attach particular importance to methods that
+    can be trained with few examples, or by weak supervision, to empower colleagues from other disciplines to analyze
+    their own data, conveniently. To the same end, I have launched the ilastik program for interactive machine learning
+    (paper) that is now headed by Anna Kreshuk.
+
+    I enjoy, and feel most privileged, to be able to work on things unknown, and to teach the next generation of
+    scientists and engineers.
+
+    I am proud that several past PhD students continue to serve in research and education, including
+
+      - Anna Kreshuk, Group Leader at EMBL
+      - Bjoern Andres, Professor at TU Dresden
+      - Bjoern Menze, Professor at Zurich University
+      - Bernhard Renard, Professor at HPI, Potsdam Universty
+
+    Luckily, I am blessed with a fantastic lab whose members happen to be both extremely gifted and nice.
 - name: Lena Maier-Hein
   photo: lmh.png
+  websites:
+    - DKFZ: https://www.dkfz.de/en/cami/index.php
+  description: |
+    The mission of the division of Computer Assisted Medical Interventions is to improve the quality of interventional
+    healthcare in a data-driven manner. To this end, the multidisciplinary group builds upon principles and knowledge
+    from a diversity of research fields including artificial intelligence (AI), statistics, computer vision, biophotonics
+    and medicine. **Surgical Data Science**, the scientific discipline of enhancing interventional healthcare through
+    capturing, organization, analysis and modeling of data, constitutes the first and central pillar of our research.
+    Committed to the ultimate goal of creating benefit for patients, medical staff and other stakeholders, we place a
+    particular focus on addressing common roadblocks to clinical translation of surgical data science methods such as
+    data sparsity or questions of uncertainty handling. A second pillar is our research in **novel interventional imaging
+    techniques** enabled by deep learning.  We are particularly interested in developing spectral imaging devices into safe
+    and reliable real-time tissue imaging and navigation modalities during interventions. This is achieved with physics-based
+    machine learning concepts that leverage prior knowledge in the form of physical simulations. The division’s profile
+    is complemented by research on the cross-cutting topic of the reliable **validation of AI algorithms**.
 - name: Klaus H. Maier-Hein
   photo: khmh.png
+  websites:
+    - DKFZ: https://www.dkfz.de/en/mic/index.php
+  description: |
+    **End-to-end Deep Learning Architectures**
+
+    Current Medical Image Analysis approaches often comprise a set of separate processing steps such as Registration,
+    Normalization, Segmentation, Feature Extraction and Classification. This project develops techniques for the integration
+    of these components into one end-to-end deep learning architecture. This enables simultaneous optimization of all component
+    w.r.t the ultimate clinical task (e.g. disease classification). 
+
+    **Machine Learning-based dMRI Processing**
+
+    This project deals with processing, analysis and visualization of neurological datasets with focus on diffusion-weighted
+    magnetic resonance imaging (dMRI). Major fields of research are the development and implementation of new methods for
+    segmentation or tractography of white matter tracts, as well as tissue segmentation and modelling. Besides the classical
+    methods that are used in this field, we explore the application of machine learning in the context of diffusion-weighted
+    image processing.
+
+    **Validation of Fiber Tractography**
+
+    The quantitative evaluation of fiber tractography is a long-standing challenge for the field that represents an essential
+    prerequisite for widespread application and meaningful interpretation of the approach. In this project we develop
+    phantom-based as well as in-vivo methods to approach this challenge and validate tractography results in large-scale
+    evaluation studies and international challenges.
 - name: Ullrich Köthe
   photo: uk.png
+  websites:
+    - Heidelberg University: https://hci.iwr.uni-heidelberg.de/vislearn/
+  description: |
+    Ullrich Köthe heads the “Explainable Machine Learning” group at the Interdisciplinary Center for Scientific Computing (IWR).
+    His research focuses on deep learning methodology that strives to establish machine learning as a new way to gain insight
+    and create new knowledge in the sciences. Models that merely make somewhat accurate predictions in a blackbox manner are
+    not good enough for this goal. He and his group thus investigate the design and theoretical foundations of novel network
+    architectures and training algorithms, which provide reliable self-assessment of their uncertainty, emerge humanly
+    interpretable latent representations and are robust against distribution shifts in the data. In particular, they utilise
+    invertible neural networks as an especially promising approach to the efficient and well-founded probabilistic treatment
+    of inverse problems and generative modeling. They demonstrated the utility of these solutions in numerous applications
+    from physics and astronomy to computer vision, biology, and medicine. To achieve its goals, the group puts high emphasis
+    on interdisciplinary work with other fields of science, and on the rapid dissemination of its results via reusable
+    open-source software libraries.
 - name: Wolfgang Huber
   photo: wh.png
+  websites:
+    - EMBL: https://www.embl.de/research/units/genome_biology/huber/
+  description: |
+    A central challenge of biomedicine is to understand how the biological systems that underlie healthy life and disease
+    react to variations in their makeup (genetic variation, for example) or their environment (drugs, for example). Our
+    group brings together researchers from quantitative disciplines – mathematics, statistics, physics and computer science
+    – and from different fields of biology and medicine.
+
+    We employ statistics and machine learning to discover patterns in large datasets, understand mechanisms, and act upon
+    predictive and causal relationships to, ultimately, address questions in personal genomics and molecular medicine. More
+    specifically, we use large-scale data acquisition and quantitative modelling of phenotypes and molecular profiles,
+    systematic perturbations (such as drugs or high-throughput genetics) and computational analysis of non-linear, epistatic
+    interaction networks.
+
+    Genomics and other molecular profiling technologies have resulted in increasingly detailed biology-based understanding
+    of human disease. The next challenge is using this knowledge to engineer treatments and cures. We integrate observational
+    data, for example from large-scale sequencing and molecular profiling, with interventional data – systematic genetic or
+    chemical screens – to reconstruct a fuller picture of the underlying causal relationships and actionable intervention
+    points. A fascinating example is our work on genotype-specific vulnerability and resistance of tumours to targeted drugs
+    in our precision oncology project.
+
+    As we engage with new data types, our aim is to develop high-quality computational and statistical methods of wide
+    applicability. We consider the release and maintenance of scientific software an integral part of scientific publishing,
+    and we contribute to the Bioconductor Project, an open source software collaboration to provide tools for the analysis
+    and study of high-throughput genomic data. An example is our DESeq2 package for analysing count data from high-throughput
+    sequencing.
+
+    **Future projects and goals**
+
+    We aim to develop the computational techniques needed to analyse exciting biological data types:
+
+     - Clinical multi-omics: we work with clinical researchers to develop predictive assays and algorithms.
+     - Many powerful mathematical ideas exist but are difficult to access. We translate them into practical methods and
+       software that make a real difference to biomedical researchers, an approach we term ‘translational statistics’.
+     - Quantitative proteomics and in vivo drug-target mapping.
+     - Single-cell and single-molecule omics.
+     - High-throughput multidimensional phenotyping: mapping gene-gene and gene-drug interactions through computational
+       image analysis of cell and tissue microscopy, machine learning and mathematical modelling.
 - name: Julio Saez-Rodriguez
   photo: jsr.png
+  websites:
+    - Heidelberg University: https://saezlab.org/
+  description: |
+    The saezlab develops and applies methods to integrate large-scale molecular (‘Omics’) data with mechanistic molecular
+    knowledge into statistical and machine learning methods, and share these tools as free open-source packages. The goal
+    is to acquire a functional understanding of the deregulation of cellular processes in disease and to apply this knowledge
+    to develop novel therapeutics. A major emphasis is to build context-specific models that are both mechanistic (to provide
+    understanding) and predictive (to generate novel hypotheses). To build these models, we combine existing biochemical
+    knowledge with different types of large scale data, including proteomic, transcriptomic and metabolomic data, also at
+    the single-cell and spatially resolved level. We believe that this biological knowledge can be instrumental to move from
+    pure correlation to causation in large data sets, and thereby identify the molecular processes that underlie specific
+    phenomena.
 - name: Jan Korbel
   photo: jk.png
+  websites:
+    - EMBL: https://www.embl.de/research/units/genome_biology/korbel/index.html
+  description: |
+    **The Korbel group combines computational and experimental approaches, including in single cells, to unravel determinants
+    and consequences of germline and somatic genetic variation with a special focus on disease mechanisms.**
+
+    Genetic variation studies have uncovered that genomic structural variants (SVs) such as deletions, insertions, and
+    inversions account for most varying bases in human genomes. Recent studies indicate that somatic SVs occur post-zygotically
+    throughout our lifespan, and show association with ageing and human diseases - calling into question the long-held belief
+    that the genome is largely static within an individual, and preserved across all cells therein.
+
+    We employ a diversity of omics and imaging approaches - from single-cell multi-omics to spatial and bulk-cell omics as
+    well as state-of-the-art microscopy - to investigate molecular mechanisms behind complex human phenotypes associated
+    with genetic variants.
+
+    In addition to experimental methodologies applied to tissues and organoids, our laboratory is devising data science
+    techniques including state-of-the-art machine learning methods for processing high-dimensional single-cell data sets,
+    and for coupling genetic variation discovery with molecular and clinical phenotype data.
+
+    **Previous and current research**
+
+    Of particular interest is understanding patterns of genetic mosaicism at cellular resolution. Our scTRIP method
+    (Sanders et al., Nat Biotechnol 2020, Fig. 1) enables the direct detection of SV mutational processes in single cells,
+    and as such can be used to obtain insights into pathomechanisms acting in human tissues.
+
+    Another interest centres around uncovering commonalities and differences between molecular disease mechanisms in disparate
+    cancer entities. In a rare-variant association study in medulloblastoma (MB) genomes/exomes, we recently described rare
+    germline loss-of-function variants in the Elongator complex protein 1 (ELP1) gene in 15% of childhood MB genomes driven
+    by Sonic hedgehog signalling (Waszak et al., Nature 2020). ELP1-associated MBs exhibit somatic loss of the wild-type ELP1
+    allele mediated by somatic large deletions that concomitantly cause loss of the PTCH1 gene residing adjacent to ELP1 on
+    chromosome 9, involving an intriguing ‘three-hit’ molecular process (Fig. 2).
+
+    With respect to data science, our group has pioneered the utilisation of cloud computing to enable the global sharing and
+    processing of large-scale biological data. We co-initiated and co-led the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes
+    (PCAWG) project, an international study for sharing cancer genomes. Our group is also actively involved in building the
+    German Human Genome-Phenome Archive (GHGA), a national research data infrastructure for disseminating and federating human
+    genomics data from German studies nationally and internationally.

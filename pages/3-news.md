@@ -4,8 +4,9 @@ title: News
 permalink: /news/
 ---
 
-<h1>ELLIS Heidelberg <strong>news</strong></h1>
-<br><br>
+ELLIS Heidelberg **news**
+=========================
+
 <hr class="hr-primary">
 {% for post in site.posts %}
 <div class="row">
@@ -23,4 +24,3 @@ permalink: /news/
   {% endif %}
 </div>
 {% endfor %}
-<br><br><br>
