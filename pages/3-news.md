@@ -8,9 +8,7 @@ ELLIS Heidelberg **news**
 =========================
 
 <hr class="hr-primary">
-{% for category in site.categories %}
-{% if category[0] == "news" %}
-{% for post in category[1] %}
+{% for post in site.posts %}
 <div class="row">
   <div class="col-2 text-center">
     <p class="date">{{ post.date | date: "%B %d, %Y"}}</p>
@@ -25,6 +23,4 @@ ELLIS Heidelberg **news**
   </div>
   {% endif %}
 </div>
-{% endfor %}
-{% endif %}
 {% endfor %}
