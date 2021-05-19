@@ -13,7 +13,7 @@ permalink: /people/
         <div class="people-photowrap">
             <div class="people-photo"><img src="/assets/img/{{ p.photo }}"></div>
             <div class="people-name"><p>{{ p.name }}
-                {% if forloop.first == true %}<br><span class="people-below">Director</span>{% endif %}
+                {% if p.role %}<br><span class="people-below">{{ p.role | capitalize }}</span>{% endif %}
                 {% for g in p.websites %}
                     {% for h in g %}
                         {% if h[0] == 'DKFZ' %}
