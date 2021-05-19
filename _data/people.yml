@@ -140,23 +140,59 @@
       - Bernhard Renard, Professor at HPI, Potsdam Universty
 
     Luckily, I am blessed with a fantastic lab whose members happen to be both extremely gifted and nice.
-- name: Lena Maier-Hein
-  photo: lmh.png
+- name: Jan Korbel
+  photo: jk.png
   websites:
-    - DKFZ: https://www.dkfz.de/en/cami/index.php
+    - EMBL: https://www.embl.de/research/units/genome_biology/korbel/index.html
   description: |
-    The mission of the division of Computer Assisted Medical Interventions is to improve the quality of interventional
-    healthcare in a data-driven manner. To this end, the multidisciplinary group builds upon principles and knowledge
-    from a diversity of research fields including artificial intelligence (AI), statistics, computer vision, biophotonics
-    and medicine. **Surgical Data Science**, the scientific discipline of enhancing interventional healthcare through
-    capturing, organization, analysis and modeling of data, constitutes the first and central pillar of our research.
-    Committed to the ultimate goal of creating benefit for patients, medical staff and other stakeholders, we place a
-    particular focus on addressing common roadblocks to clinical translation of surgical data science methods such as
-    data sparsity or questions of uncertainty handling. A second pillar is our research in **novel interventional imaging
-    techniques** enabled by deep learning.  We are particularly interested in developing spectral imaging devices into safe
-    and reliable real-time tissue imaging and navigation modalities during interventions. This is achieved with physics-based
-    machine learning concepts that leverage prior knowledge in the form of physical simulations. The division’s profile
-    is complemented by research on the cross-cutting topic of the reliable **validation of AI algorithms**.
+    **The Korbel group combines computational and experimental approaches, including in single cells, to unravel determinants
+    and consequences of germline and somatic genetic variation with a special focus on disease mechanisms.**
+
+    Genetic variation studies have uncovered that genomic structural variants (SVs) such as deletions, insertions, and
+    inversions account for most varying bases in human genomes. Recent studies indicate that somatic SVs occur post-zygotically
+    throughout our lifespan, and show association with ageing and human diseases - calling into question the long-held belief
+    that the genome is largely static within an individual, and preserved across all cells therein.
+
+    We employ a diversity of omics and imaging approaches - from single-cell multi-omics to spatial and bulk-cell omics as
+    well as state-of-the-art microscopy - to investigate molecular mechanisms behind complex human phenotypes associated
+    with genetic variants.
+
+    In addition to experimental methodologies applied to tissues and organoids, our laboratory is devising data science
+    techniques including state-of-the-art machine learning methods for processing high-dimensional single-cell data sets,
+    and for coupling genetic variation discovery with molecular and clinical phenotype data.
+
+    **Previous and current research**
+
+    Of particular interest is understanding patterns of genetic mosaicism at cellular resolution. Our scTRIP method
+    (Sanders et al., Nat Biotechnol 2020, Fig. 1) enables the direct detection of SV mutational processes in single cells,
+    and as such can be used to obtain insights into pathomechanisms acting in human tissues.
+
+    Another interest centres around uncovering commonalities and differences between molecular disease mechanisms in disparate
+    cancer entities. In a rare-variant association study in medulloblastoma (MB) genomes/exomes, we recently described rare
+    germline loss-of-function variants in the Elongator complex protein 1 (ELP1) gene in 15% of childhood MB genomes driven
+    by Sonic hedgehog signalling (Waszak et al., Nature 2020). ELP1-associated MBs exhibit somatic loss of the wild-type ELP1
+    allele mediated by somatic large deletions that concomitantly cause loss of the PTCH1 gene residing adjacent to ELP1 on
+    chromosome 9, involving an intriguing ‘three-hit’ molecular process (Fig. 2).
+
+    With respect to data science, our group has pioneered the utilisation of cloud computing to enable the global sharing and
+    processing of large-scale biological data. We co-initiated and co-led the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes
+    (PCAWG) project, an international study for sharing cancer genomes. Our group is also actively involved in building the
+    German Human Genome-Phenome Archive (GHGA), a national research data infrastructure for disseminating and federating human
+    genomics data from German studies nationally and internationally.
+- name: Julio Saez-Rodriguez
+  photo: jsr.png
+  websites:
+    - Heidelberg University: https://saezlab.org/
+  description: |
+    The saezlab develops and applies methods to integrate large-scale molecular (‘Omics’) data with mechanistic molecular
+    knowledge into statistical and machine learning methods, and share these tools as free open-source packages. The goal
+    is to acquire a functional understanding of the deregulation of cellular processes in disease and to apply this knowledge
+    to develop novel therapeutics. A major emphasis is to build context-specific models that are both mechanistic (to provide
+    understanding) and predictive (to generate novel hypotheses). To build these models, we combine existing biochemical
+    knowledge with different types of large scale data, including proteomic, transcriptomic and metabolomic data, also at
+    the single-cell and spatially resolved level. We believe that this biological knowledge can be instrumental to move from
+    pure correlation to causation in large data sets, and thereby identify the molecular processes that underlie specific
+    phenomena.
 - name: Klaus H. Maier-Hein
   photo: khmh.png
   websites:
@@ -183,6 +219,23 @@
     prerequisite for widespread application and meaningful interpretation of the approach. In this project we develop
     phantom-based as well as in-vivo methods to approach this challenge and validate tractography results in large-scale
     evaluation studies and international challenges.
+- name: Lena Maier-Hein
+  photo: lmh.png
+  websites:
+    - DKFZ: https://www.dkfz.de/en/cami/index.php
+  description: |
+    The mission of the division of Computer Assisted Medical Interventions is to improve the quality of interventional
+    healthcare in a data-driven manner. To this end, the multidisciplinary group builds upon principles and knowledge
+    from a diversity of research fields including artificial intelligence (AI), statistics, computer vision, biophotonics
+    and medicine. **Surgical Data Science**, the scientific discipline of enhancing interventional healthcare through
+    capturing, organization, analysis and modeling of data, constitutes the first and central pillar of our research.
+    Committed to the ultimate goal of creating benefit for patients, medical staff and other stakeholders, we place a
+    particular focus on addressing common roadblocks to clinical translation of surgical data science methods such as
+    data sparsity or questions of uncertainty handling. A second pillar is our research in **novel interventional imaging
+    techniques** enabled by deep learning.  We are particularly interested in developing spectral imaging devices into safe
+    and reliable real-time tissue imaging and navigation modalities during interventions. This is achieved with physics-based
+    machine learning concepts that leverage prior knowledge in the form of physical simulations. The division’s profile
+    is complemented by research on the cross-cutting topic of the reliable **validation of AI algorithms**.
 - name: Ullrich Köthe
   photo: uk.png
   websites:
@@ -239,56 +292,3 @@
      - Single-cell and single-molecule omics.
      - High-throughput multidimensional phenotyping: mapping gene-gene and gene-drug interactions through computational
        image analysis of cell and tissue microscopy, machine learning and mathematical modelling.
-- name: Julio Saez-Rodriguez
-  photo: jsr.png
-  websites:
-    - Heidelberg University: https://saezlab.org/
-  description: |
-    The saezlab develops and applies methods to integrate large-scale molecular (‘Omics’) data with mechanistic molecular
-    knowledge into statistical and machine learning methods, and share these tools as free open-source packages. The goal
-    is to acquire a functional understanding of the deregulation of cellular processes in disease and to apply this knowledge
-    to develop novel therapeutics. A major emphasis is to build context-specific models that are both mechanistic (to provide
-    understanding) and predictive (to generate novel hypotheses). To build these models, we combine existing biochemical
-    knowledge with different types of large scale data, including proteomic, transcriptomic and metabolomic data, also at
-    the single-cell and spatially resolved level. We believe that this biological knowledge can be instrumental to move from
-    pure correlation to causation in large data sets, and thereby identify the molecular processes that underlie specific
-    phenomena.
-- name: Jan Korbel
-  photo: jk.png
-  websites:
-    - EMBL: https://www.embl.de/research/units/genome_biology/korbel/index.html
-  description: |
-    **The Korbel group combines computational and experimental approaches, including in single cells, to unravel determinants
-    and consequences of germline and somatic genetic variation with a special focus on disease mechanisms.**
-
-    Genetic variation studies have uncovered that genomic structural variants (SVs) such as deletions, insertions, and
-    inversions account for most varying bases in human genomes. Recent studies indicate that somatic SVs occur post-zygotically
-    throughout our lifespan, and show association with ageing and human diseases - calling into question the long-held belief
-    that the genome is largely static within an individual, and preserved across all cells therein.
-
-    We employ a diversity of omics and imaging approaches - from single-cell multi-omics to spatial and bulk-cell omics as
-    well as state-of-the-art microscopy - to investigate molecular mechanisms behind complex human phenotypes associated
-    with genetic variants.
-
-    In addition to experimental methodologies applied to tissues and organoids, our laboratory is devising data science
-    techniques including state-of-the-art machine learning methods for processing high-dimensional single-cell data sets,
-    and for coupling genetic variation discovery with molecular and clinical phenotype data.
-
-    **Previous and current research**
-
-    Of particular interest is understanding patterns of genetic mosaicism at cellular resolution. Our scTRIP method
-    (Sanders et al., Nat Biotechnol 2020, Fig. 1) enables the direct detection of SV mutational processes in single cells,
-    and as such can be used to obtain insights into pathomechanisms acting in human tissues.
-
-    Another interest centres around uncovering commonalities and differences between molecular disease mechanisms in disparate
-    cancer entities. In a rare-variant association study in medulloblastoma (MB) genomes/exomes, we recently described rare
-    germline loss-of-function variants in the Elongator complex protein 1 (ELP1) gene in 15% of childhood MB genomes driven
-    by Sonic hedgehog signalling (Waszak et al., Nature 2020). ELP1-associated MBs exhibit somatic loss of the wild-type ELP1
-    allele mediated by somatic large deletions that concomitantly cause loss of the PTCH1 gene residing adjacent to ELP1 on
-    chromosome 9, involving an intriguing ‘three-hit’ molecular process (Fig. 2).
-
-    With respect to data science, our group has pioneered the utilisation of cloud computing to enable the global sharing and
-    processing of large-scale biological data. We co-initiated and co-led the ICGC/TCGA Pan-Cancer Analysis of Whole Genomes
-    (PCAWG) project, an international study for sharing cancer genomes. Our group is also actively involved in building the
-    German Human Genome-Phenome Archive (GHGA), a national research data infrastructure for disseminating and federating human
-    genomics data from German studies nationally and internationally.
