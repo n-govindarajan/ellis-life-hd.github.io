@@ -2,6 +2,7 @@
 ---
 
 $primary: #B83374;
+$primary-bg: #B8337444;
 $dark: #555;
 $bg: #3c3838;
 $container-max-widths: (
@@ -88,8 +89,7 @@ h1 strong {
 .brand ul {
   flex-direction: row;
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin: 10px 0 0 10px;
 }
 
 .brand li {
@@ -169,6 +169,9 @@ h1 strong {
 .navbar-brand img {
   image-rendering: crisp-edges;
   height: 50px;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  user-select: none;
 }
 .nav-link {
   font-size: 13pt;
@@ -181,27 +184,41 @@ h1 strong {
 .newest-post {
   width: 100%;
   margin: 0 auto;
-  padding: 2.5vw;
+  padding: 0;
   border: 1px solid $primary;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  transition: transform .3s;
+  a {
+	  padding: 2em 3em;
+	  display: block;
+	  text-decoration: none;
+	  color: inherit;
+  }
+  &:hover {
+	  transform: scale(1.02);
+	  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
 }
 
 .news-new {
   font-weight: 700;
-  font-size: 1vw;
+  font-size: .8em;
   color: $primary;
   margin: 0;
-  padding: 0;
-  line-height: 0.5;
+  padding: 0 .5em;
+  line-height: 1.5;
+  background: $primary-bg;
+  border-radius: .5em;
+  display: inline-block;
 }
 
 .newest-post h1 {
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   color: #555;
-  margin-bottom: 1vw;
+  margin-bottom: 1em;
 }
 
 .newest-post h1 a {
@@ -439,4 +456,63 @@ footer .copyright {
 .people-below {
   font-size: 11pt !important;
   font-weight: 600;
+}
+
+
+#header-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	user-select: none;
+	#header-img {
+		width: 80%;
+		z-index: 1;
+		height: auto;
+		object-fit: cover;
+		user-drag: none; 
+		-webkit-user-drag: none;
+	}
+	#header-text {
+		font-variant-ligatures: none;
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		position: relative;
+		margin-left: -50%;
+		text-align: right;
+		z-index: 99;
+		#unit-focus {
+			color: #333333;
+			font-weight: 800;
+			font-size: 5rem;
+			text-shadow: 1px 1px 3px #00000099;
+			padding-top: 3rem;
+		}
+		#unit-location {
+			display: flex;
+			flex-direction: column;
+			padding-top: 8rem;
+			margin-left: 30%;
+			#unit-header-1 {
+				color: $primary;
+				font-weight: 400;
+				font-size: 2.5rem;
+				line-height: 2.5rem;
+				text-shadow: 1px 1px 1px #00000055;
+				padding-top: 1rem;
+			}
+			#unit-subheader {
+				color: #00000077;
+				font-size: 1rem;
+				line-height: 1rem;
+			}
+			#unit-header-2 {
+				color: $primary;
+				font-weight: 800;
+				font-size: 5.2rem;
+				line-height: 5.5rem;
+				text-shadow: 1px 1px 1px #00000055;
+			}
+		}
+	}
 }

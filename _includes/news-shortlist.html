@@ -1,9 +1,11 @@
 <div class="newest-post-wrapper container brand decorate-link">
     <div class="newest-post">
         {% for post in site.posts limit:1 %}
-        <p class="news-new">NEW</p>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <h2>{{ post.excerpt }}</h2>
+	<a href="{{ post.url }}">
+		<p class="news-new">NEW</p>
+		<h1>{{ post.title }}</h1>
+		<h2>{{ post.excerpt }}</h2>
+	</a>
         {% endfor %}
     </div>
     <ul>
