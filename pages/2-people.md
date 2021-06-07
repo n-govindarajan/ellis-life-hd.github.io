@@ -14,8 +14,10 @@ permalink: /people/
         <div class="col-3 pl-4">
             <div class="people-photowrap">
                 <div class="people-photo"><img src="/assets/img/{{ p.photo }}"></div>
-                <div class="people-name"><p>{{ p.name }}
-                    {% if p.role %}<br><span class="people-below">{{ p.role | capitalize }}</span>{% endif %}
+                <div class="people-name">
+                    <p>
+                    {% if p.role %}<span class="people-tag">{{ p.role | capitalize }}</span><br>{% endif %}
+                    {{ p.name }}
                     {% for g in p.websites %}
                         {% for h in g %}
                             {% if h[0] == 'DKFZ' %}
