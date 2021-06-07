@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-ELLIS Heidelberg **news**
+**News** at ELLIS Heidelberg
 =========================
 
 <hr class="hr-primary">
