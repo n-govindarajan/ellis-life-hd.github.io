@@ -9,3 +9,4 @@ sass:
   style: compressed
   load_paths:
     - _sass/bootstrap
+future: true

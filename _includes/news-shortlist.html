@@ -4,7 +4,11 @@
 	<a href="{{ post.url }}">
 		<p class="news-new">NEW</p>
 		<h1>{{ post.title }}</h1>
-		<h2>{{ post.excerpt }}</h2>
+		{% if post.event_title %}
+            <h2>{{ post.event_title }}</h2>
+        {% else %}
+            <h2>{{ post.excerpt }}</h2>
+        {% endif %}
 	</a>
         {% endfor %}
     </div>

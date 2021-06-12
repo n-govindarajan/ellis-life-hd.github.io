@@ -3,7 +3,28 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }}</p>
+<div class="event-info">
+	<h2>{{ page.event_title }}</h2>
+	<p class="event-subtitle">{{ page.event_subtitle }}</p>
+	<p class="event-person">{{ page.event_person }}</p>
+	{% if page.date > site.time %}
+		<p class="event-date future-date">
+			{% if page.event_time %}
+				{{ page.event_time }}
+			{% else %}
+				{{ page.date | date_to_string }}
+			{% endif %}
+		</p>
+	{% else %}
+		<p class="event-date">
+			{% if page.event_time %}
+				{{ page.event_time }}
+			{% else %}
+				{{ page.date | date_to_string }}
+			{% endif %}
+		</p>
+	{% endif %}
+</div>
 <br>
 {{ content }}
 <br><br><br>

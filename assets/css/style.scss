@@ -219,7 +219,7 @@ h1 strong {
   border-radius: 20px;
   transition: transform .3s ease-out;
   a {
-	  padding: 2em 3em;
+	  padding: 1.5em 3em;
 	  display: block;
 	  text-decoration: none;
 	  color: inherit;
@@ -518,12 +518,14 @@ footer .copyright {
 }
 
 .date {
-  font-size: 11pt;
+  font-size: 1.2em;
   font-weight: 400;
   color: #777;
-  transform: scaleX(1.1);
-  transform-origin: 0;
   margin-top: 10px;
+}
+
+.future-date {
+  color: $primary;
 }
 
 .carousel-inner img {
@@ -563,6 +565,47 @@ footer .copyright {
   }
 }
 
+.news-tile {
+  &:not(:last-child) {
+    margin-bottom: 2em;
+  }
+  hr {
+    margin-bottom: 0;
+    border: 1px solid #EEE;
+    transition: all 0.2s ease-in-out;
+  }
+  &:hover {
+    hr {
+      @extend %hr-primary;
+    }
+  }
+  a {
+    &:hover {
+      color: $primary;
+    }
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid $leadlightgrey;
+
+    &:hover {
+      color: $primary;
+      border-bottom: 1px solid $primary;
+    }
+  }
+  p {
+    text-align: left;
+  }
+}
+
+.event-info {
+  .event-subtitle {
+    font-size: 1.3em;
+  }
+  .event-person {
+    margin-bottom: 0;
+    font-size: 1.3em;
+  }
+}
 
 #header-main {
 	display: flex;
