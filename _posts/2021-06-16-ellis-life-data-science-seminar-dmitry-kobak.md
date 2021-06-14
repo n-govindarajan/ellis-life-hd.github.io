@@ -5,6 +5,7 @@ event_title: "Neighbour Embeddings for Scientific Visualization"
 event_subtitle: "How do the existing algorithms differ and what are the trade-offs?"
 event_person: "Dmitry Kobak, University of Tübingen"
 event_time: "June 16, 11:00 AM (CEST)"
+poster: ELSS_20210616_Kobak_poster.png
 ---
 
 ### Abstract

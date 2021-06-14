@@ -4,6 +4,9 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <div class="event-info">
+	{% if page.poster %}
+		<img src="/assets/img/posts/{{ page.poster }}" class="event-poster"/>
+	{% endif %}
 	<h2>{{ page.event_title }}</h2>
 	<p class="event-subtitle">{{ page.event_subtitle }}</p>
 	<p class="event-person">{{ page.event_person }}</p>
