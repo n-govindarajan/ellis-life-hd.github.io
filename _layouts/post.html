@@ -29,7 +29,9 @@ layout: default
 	{% endif %}
 
 	{% if page.link %}
-		<a href="{{ page.link }}" class="event-link">Register for the meeting</a>
+		{% if page.date >= site.time %}
+			<a href="{{ page.link }}" class="event-link">Register for the meeting</a>
+		{% endif %}
 	{% endif %}
 </div>
 <br>
