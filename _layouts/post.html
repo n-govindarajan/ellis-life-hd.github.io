@@ -27,6 +27,10 @@ layout: default
 			{% endif %}
 		</p>
 	{% endif %}
+
+	{% if page.link %}
+		<a href="{{ page.link }}" class="event-link">Register for the meeting</a>
+	{% endif %}
 </div>
 <br>
 {{ content }}

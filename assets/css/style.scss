@@ -611,8 +611,11 @@ footer .copyright {
     font-size: 1.5em;
     font-weight: 600;
   }
+  .event-date {
+    font-size: 1.3em;
+  }
   .event-poster {
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 0 3em 0;
     border-radius: 2em;
     box-shadow: 0 .1em .2em $leadlightgrey;
@@ -620,7 +623,16 @@ footer .copyright {
     @media screen and (max-width: 768px)  {
       max-width: 100%;
     }
-
+  }
+  .event-link {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 1em 0;
+    text-decoration: none;
+    border-bottom: 1px solid lighten($primary, 40%);
+    &:hover {
+      border-bottom: 1px solid darken($primary, 15%);
+    }
   }
 }
 
@@ -630,10 +642,13 @@ footer .copyright {
 	justify-content: space-between;
 	user-select: none;
 	#header-img {
+    align-self: flex-start;
 		width: 80%;
+    height: auto;
+    max-height: 100vh;
 		z-index: 1;
 		height: auto;
-		object-fit: cover;
+		object-fit: contain;
 		user-drag: none; 
 		-webkit-user-drag: none;
 	}
