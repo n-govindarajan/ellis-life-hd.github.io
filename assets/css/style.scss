@@ -45,7 +45,7 @@ h1 {
   font-weight: 700;
   transform: scaleX(1.1);
   transform-origin: 0;
-  color: #777;
+  color: $leadgrey;
   margin-bottom: 50px;
 }
 
@@ -245,7 +245,7 @@ h1 strong {
 .newest-post h1 {
   font-weight: 700;
   font-size: 1.5em;
-  color: #555;
+  color: $dark;
   margin-bottom: 1em;
 }
 
@@ -326,6 +326,7 @@ h1 strong {
   align-items: center;
   height: 100%;
   margin-left: 1vw;
+  color: $dark;
 }
 
 .people-name p {
@@ -338,6 +339,7 @@ h1 strong {
 .people-tag {
   font-weight: 700;
   font-size: 10pt;
+  color: $dark;
 }
 
 .brand-institutes {
@@ -509,17 +511,17 @@ footer .copyright {
 }
 
 .plain {
-  color: #555;
+  color: $dark;
 }
 
 .plain:hover {
-  color: #555;
+  color: $dark;
 }
 
 .date {
   font-size: 1.2em;
   font-weight: 400;
-  color: #777;
+  color: $leadgrey;
   margin-top: 10px;
 }
 
@@ -584,7 +586,7 @@ footer .copyright {
       color: $primary;
     }
     text-decoration: none;
-    border-bottom: 1px solid $leadlightgrey;
+    //border-bottom: 1px solid $leadlightgrey;
 
     &:hover {
       color: $primary;
@@ -696,4 +698,8 @@ footer .copyright {
 			}
 		}
 	}
+}
+
+table {
+  width: 100%;
 }
