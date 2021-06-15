@@ -33,7 +33,7 @@ The ELLIS unit Heidelberg will foster innovations at the interface of artificial
         <hr />
     </a>
     <div class="row py-vw1">
-        <div class="col-3 pl-4">
+        <div class="col-md-3 pl-4">
             <div class="people-photowrap">
                 <div class="people-photo"><img src="/assets/img/{{ p.photo }}"></div>
                 <div class="people-name">
@@ -56,12 +56,12 @@ The ELLIS unit Heidelberg will foster innovations at the interface of artificial
                 </p></div>
             </div>
         </div>
-        <div class="col-7">
-            <div class="people-description">
+        <div class="col-md-7">
+            <div class="people-description my-4 my-sm-0">
                 {{ p.description | markdownify }}
             </div>
         </div>
-        <div class="col-2 decorate-link">
+        <div class="col-md-2 decorate-link">
             <ul>
             {% for g in p.websites %}
                 {% for h in g %}

@@ -46,6 +46,21 @@ p {
   font-weight: 300;
 }
 
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  h1 {
+    font-size: 30pt * 0.8;
+    strong {
+      font-size: 30pt * 0.8;
+    }
+  }
+  h2 {
+    font-size: 25pt * 0.8;
+  }
+  p {
+    font-size: 14pt * 0.8;
+  }  
+}
+
 table {
   width: 100%;
 }

@@ -11,16 +11,11 @@ Get in touch via email or phone below.
 
 <hr>
 
-| **Unit Director:**                                                  | **Unit Coordinator:**                                         |
-| Dr. Oliver Stegle                                                   | Dr. Nambirajan Govindarajan                                   |
-| Head, Division of Computational Genomics and Systems Genetics, B260 | Division of Computational Genomics and Systems Genetics, B260 |
-| German Cancer Research Center (DKFZ)                                | German Cancer Research Center (DKFZ)                          |
-| Im Neuenheimer Feld 280                                             | Im Neuenheimer Feld 280                                       |
-| 69120 Heidelberg                                                    | 69120 Heidelberg                                              |
-| Germany                                                             | Germany                                                       |
-|                                                                     |                                                               |
-| T: +49 (0) 6221 42 3598                                             | T: +49 (0) 6221 42 2720                                       |
-| E: [o.stegle@dkfz-heidelberg.de][1]                                 | E: [nambirajan.govindarajan@dkfz-heidelberg.de][2]            |
-
-[1]: mailto:o.stegle@dkfz-heidelberg.de
-[2]: mailto:nambirajan.govindarajan@dkfz-heidelberg.de
+<div class="row">
+    <div class="col-md-6">
+        <p><strong>Unit Director:</strong><br>Dr. Oliver Stegle<br>Head, Division of Computational Genomics and Systems Genetics, B260<br>German Cancer Research Center (DKFZ)<br>Im Neuenheimer Feld 280<br>69120 Heidelberg<br>Germany<br><br>T: +49 (0) 6221 42 3598<br>E: <a href="mailto:o.stegle@dkfz-heidelberg.de">o.stegle@dkfz-heidelberg.de</a></p>
+    </div>
+    <div class="col-md-6">
+        <p><strong>Unit Coordinator:</strong><br>Dr. Nambirajan Govindarajan<br>Division of Computational Genomics and Systems Genetics, B260<br>German Cancer Research Center (DKFZ)<br>Im Neuenheimer Feld 280<br>69120 Heidelberg<br>Germany<br><br>T: +49 (0) 6221 42 2720<br><a href="mailto:nambirajan.govindarajan@dkfz-heidelberg.de">nambirajan.govindarajan@dkfz-heidelberg.de</a>
+    </div>
+</div>
