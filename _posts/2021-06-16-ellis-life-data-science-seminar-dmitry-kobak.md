@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ELLIS Life / Data Science Seminar: Dmitry Kobak"
+title: "ELLIS Life / NCT Data Science Seminar: Dmitry Kobak"
 event_title: "Neighbour Embeddings for Scientific Visualization"
 event_subtitle: "How do the existing algorithms differ and what are the trade-offs?"
 event_person: "Dmitry Kobak, University of Tübingen"

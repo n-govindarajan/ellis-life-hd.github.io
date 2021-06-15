@@ -615,8 +615,9 @@ footer .copyright {
     font-size: 1.3em;
   }
   .event-poster {
-    max-width: 70%;
-    margin: 0 0 3em 0;
+    display: block;
+    max-width: 50%;
+    margin: 3em 0;
     border-radius: 2em;
     box-shadow: 0 .1em .2em $leadlightgrey;
     
@@ -627,7 +628,8 @@ footer .copyright {
   .event-link {
     display: inline-block;
     font-size: 1.3em;
-    margin: 1em 0;
+    margin: 0;
+    margin-bottom: 2em;
     text-decoration: none;
     border-bottom: 1px solid lighten($primary, 40%);
     &:hover {
