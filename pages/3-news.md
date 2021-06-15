@@ -1,10 +1,10 @@
 ---
 layout: default
-title: News & Events
-permalink: /news/
+title: Latests
+permalink: /latests/
 ---
 
-**News & Events** at ELLIS Heidelberg
+**Latests** at ELLIS Heidelberg
 =====================================
 
 {% for post in site.posts %}

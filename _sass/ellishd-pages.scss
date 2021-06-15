@@ -1,15 +1,51 @@
+$shrink-factor: 0.8;
+$shrink-factor-sm: 0.5;
+
+// Common
+.brand {
+  ul {
+    flex-direction: row;
+    display: flex;
+  }
+  li {
+    margin-right: 1em;
+    font-size: 1.1em;
+    float: left;
+    z-index: 99999;
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  .brand {
+    li {
+      font-size: 1.1em * $shrink-factor;
+    }
+  }
+}
+
 // Main page headline
+
+$header-img-max-height: 35rem;
+$header-unit-focus-font-size: 3.6rem;
+$header-unit-focus-padding-top: 3rem;
+$header-unit-location-padding-top: 7rem;
+$header-unit-header-1-font-size: 2rem;
+$header-unit-header-1-line-height: 2rem;
+$header-unit-header-1-padding-top: 1rem;
+$header-unit-subheader-font-size: 0.8rem;
+$header-unit-subheader-line-height: 1rem;
+$header-unit-header-2-font-size: 4.2rem;
+$header-unit-header-2-line-height: 4.4rem;
+
 #header-main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   user-select: none;
-  width: 75vw;
+  width: map-get($grid-breakpoints, "xl");
   #header-img {
-  align-self: flex-start;
-  width: 40vw;
-  height: auto;
-  max-height: 100vh;
+    align-self: flex-start;
+    max-height: $header-img-max-height;
     z-index: 1;
     height: auto;
     object-fit: contain;
@@ -28,45 +64,80 @@
     #unit-focus {
       color: #333333;
       font-weight: 800;
-      //font-size: 4.5rem;
-      font-size: 3.6vw;
+      font-size: $header-unit-focus-font-size;
       text-shadow: 1px 1px 3px #00000099;
-      //padding-top: 3rem;
-      padding-top: 2.4vw;
+      padding-top: $header-unit-focus-padding-top;
     }
     #unit-location {
       display: flex;
       flex-direction: column;
-      //padding-top: 7rem;
-      padding-top: 5.6vw;
+      padding-top: $header-unit-location-padding-top;
       margin-left: 30%;
       #unit-header-1 {
         color: $primary;
-        font-weight: 400;
-        //font-size: 2.5rem;
-        font-size: 2vw;
-        //line-height: 2.5rem;
-        line-height: 2vw;
         text-shadow: 1px 1px 1px #00000055;
-        padding-top: 1rem;
-        //padding-top: 0.8vw;
+        font-weight: 400;
+        font-size: $header-unit-header-1-font-size;
+        line-height: $header-unit-header-1-line-height;
+        padding-top: $header-unit-header-1-padding-top;
       }
       #unit-subheader {
         color: #00000077;
-        //font-size: 1rem;
-        font-size: 0.8vw;
-        line-height: 1rem;
+        font-size: $header-unit-subheader-font-size;
+        line-height: $header-unit-subheader-line-height;
       }
       #unit-header-2 {
         color: $primary;
         font-weight: 800;
-        //font-size: 5.2rem;
-        font-size: 4.16vw;
-        //line-height: 5.5rem;
-        line-height: 4.4vw;
+        font-size: $header-unit-header-2-font-size;
+        line-height: $header-unit-header-2-line-height;
         text-shadow: 1px 1px 1px #00000055;
       }
     }
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "xl")) {
+  #header-main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "lg")) {
+  #header-main {
+    width: 100%;
+    #header-img {
+      max-height: $header-img-max-height * $shrink-factor;
+    }
+    #header-text {
+      #unit-focus {
+        font-size: $header-unit-focus-font-size * $shrink-factor;
+        padding-top: $header-unit-focus-padding-top * $shrink-factor;
+      }
+      #unit-location {
+        padding-top: $header-unit-location-padding-top * $shrink-factor;
+        margin-left: 30%;
+        #unit-header-1 {
+          font-size: $header-unit-header-1-font-size * $shrink-factor;
+          line-height: $header-unit-header-1-line-height * $shrink-factor;
+          padding-top: $header-unit-header-1-padding-top * $shrink-factor;
+        }
+        #unit-subheader {
+          font-size: $header-unit-subheader-font-size * $shrink-factor;
+          line-height: $header-unit-subheader-line-height * $shrink-factor;
+        }
+        #unit-header-2 {
+          font-size: $header-unit-header-2-font-size * $shrink-factor;
+          line-height: $header-unit-header-2-line-height * $shrink-factor;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  #header-main {
+    display: none;
   }
 }
 
@@ -126,15 +197,35 @@
   }
 }
 
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  .newest-post-wrapper {
+    .newest-post {
+      .news-new {
+        font-size: .8em * $shrink-factor;
+      }
+      h1 {
+        font-size: 1.5em * $shrink-factor;
+        margin-bottom: 1em * $shrink-factor;
+      }    
+      h2 {
+        font-size: 1.3em * $shrink-factor;
+      }    
+    }
+  }
+}
+
 // Main page research
 .brand-research {
   position: relative;
+  img {
+    left: -10vw;
+  }
   .brand-research-text {
     position: absolute;
     right: 7%;
     top: 38%;
     a {
-      font-size: 1vw;
+      font-size: 1.1em;
     }
   }  
   .rot-30 {
@@ -147,8 +238,48 @@
   }
 }
 
+@media screen and (max-width: map-get($grid-breakpoints, "xl")) {
+  .brand-research {
+    .brand-research-text {
+      margin-top: 55px;
+      position: relative;
+      right: auto;
+      top: auto;
+    }  
+    .w-60 {
+      width: 100%;
+    }
+    .lead {
+      font-size: 2.2em;
+      padding-top: 50px;
+      transform-origin: 50%;
+      text-align: center;
+    }
+    ul li {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .brand-research {
+    .lead {
+      font-size: 1.8em;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .brand-research {
+    .lead {
+      font-size: 1.5em;
+    }
+  }
+}
+
+
 .lead {
-  font-size: 2vw;
+  font-size: 2.2em;
   font-weight: 700;
   transform: scaleX(1.1);
   transform-origin: 0;
@@ -166,6 +297,20 @@
       color: $primary;
       border-bottom: 1px solid $primary;
     }
+  }
+}
+
+
+
+@media screen and (max-width: map-get($grid-breakpoints, "xl")) {
+  .lead {
+    font-size: 2.2em * $shrink-factor !important;
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "sm")) {
+  .lead {
+    font-size: 2.2em * $shrink-factor-sm !important;
   }
 }
 
@@ -361,7 +506,7 @@
     border-radius: 2em;
     box-shadow: 0 .1em .2em $leadlightgrey;
     
-    @media screen and (max-width: 768px)  {
+    @media screen and (max-width: map-get($grid-breakpoints, "md")) {
       max-width: 100%;
     }
   }
