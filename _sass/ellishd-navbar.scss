@@ -1,0 +1,64 @@
+.brand {
+  ul {
+    flex-direction: row;
+    display: flex;
+  }
+  li {
+    margin-right: 3vw;
+    font-size: 0.9vw;
+    float: left;
+    z-index: 99999;
+  }
+}
+
+.navbar-collapse {
+  background-color: white;
+}
+
+.navbar {
+  z-index: 99999;
+}
+
+.navbar-brand {
+  margin-right: 0.5em;
+  img {
+    image-rendering: crisp-edges;
+    height: 50px;
+    //height: 44px;
+    user-drag: none; 
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  .navbar-brand img {
+    height: 44px;
+  }
+}
+
+.nav-link {
+  font-size: 13pt;
+}
+
+#navbar-top {
+  #navbarCollapse {
+    .active {
+      a {
+        padding-bottom: .2em;
+        color: $primary;
+        // &:after {
+        //   content: "";
+        //   display: block;
+        //   position: relative;
+        //   width: 1.5em;
+        //   height: .3em;
+        //   background-color: $primary;
+        //   border-radius: 5em;
+        //   margin: 0 auto;
+        // }
+        border-bottom: .2em solid $primary;
+      }
+    }
+  }
+}
