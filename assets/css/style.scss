@@ -437,10 +437,10 @@ footer a:hover {
 .footer-menu, .footer-head {
   min-width: 100%;
   position: relative;
-  img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-  }
+  //img {
+  //  -webkit-filter: grayscale(100%);
+  //  filter: grayscale(100%);
+  //}
 }
 
 .footer-menu {
