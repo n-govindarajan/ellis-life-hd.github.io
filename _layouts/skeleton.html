@@ -31,11 +31,13 @@
                     </li>
                     {%- for path in site.pages -%}
                     {%- if path.title and path.footer-only != true -%}
-                    <li class="nav-item{% if path.title != "Contact" %} mr-lg-4 mr-md-2{% endif %}{% if path.url == page.url %} active{% endif %}">
+                    <!--<li class="nav-item{% if path.title != "Contact" %} mr-lg-4 mr-md-2{% endif %}{% if path.url == page.url %} active{% endif %}">-->
+                    <li class="nav-item mr-lg-4 mr-md-2{% if path.url == page.url %} active{% endif %}">
                         <a class="nav-link" href="{{ path.url | relative_url }}">{{ path.title | escape }}{% if path.url == page.url %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
                     {%- endif -%}
                     {%- endfor -%}
+                    <li class="nav-item twitter-button"><a class="nav-link" href="https://twitter.com/ellislifehd" target="_blank"><span class="d-inline d-md-none">@ellislifehd on &nbsp;</span><span class="twitter-icon"></span></a></li>
                 </ul>
             </div>
           </nav>

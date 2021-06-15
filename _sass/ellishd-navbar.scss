@@ -22,14 +22,17 @@
   .navbar-brand img {
     height: 44px;
   }
-  .nav-item {
-    padding-top: 20px;
-    padding-left: 10px;
-  }
-  .active {
-    font-weight: 600;
-    a {
-      border-bottom: none !important;
+  .navbar-nav {
+    padding-bottom: 20px;
+    .nav-item {
+      padding-top: 20px;
+      padding-left: 10px;
+    }
+    .active {
+      font-weight: 600;
+      a {
+        border-bottom: none !important;
+      }
     }
   }
 }
@@ -58,4 +61,13 @@
       }
     }
   }
+}
+
+.twitter-icon {
+  display: inline-block;
+  background-image: url('/assets/img/twitter.png');
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
 }
