@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Latests
-permalink: /latests/
+title: Latest
+permalink: /latest/
 ---
 
-**Latests** at ELLIS Heidelberg
-=====================================
+**Latest** at ELLIS Heidelberg
+==============================
 
 {% for post in site.posts %}
 <div class="news-tile">
