@@ -7,7 +7,7 @@ permalink: /contact/
 **Contact** ELLIS Heidelberg
 ============================
 
-Get in touch via email or phone below.
+Get in touch with us.
 
 <hr>
 
