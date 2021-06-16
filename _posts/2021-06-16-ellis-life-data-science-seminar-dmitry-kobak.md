@@ -6,7 +6,6 @@ event_subtitle: "How do the existing algorithms differ and what are the trade-of
 event_person: "Dmitry Kobak, University of Tübingen"
 event_time: "June 16, 11:00 AM (CEST)"
 poster: ELSS_20210616_Kobak_poster.png
-link: https://us02web.zoom.us/meeting/register/tZYocuipqzgtHtY7eRgvuAGdaowriXHygMlA
 ---
 
 ### Abstract
