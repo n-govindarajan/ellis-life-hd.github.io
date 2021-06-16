@@ -14,3 +14,4 @@ carousels:
 {% include brand-people.html %}
 {% include brand-institutes.html %}
 {% include brand-ellis.html %}
+{% include brand-logos.html %}
