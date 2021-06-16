@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 ---
 
-**People** at ELLIS Heidelberg 
+**Our team** 
 ==============================
 
 Meet our team! We are a passionate bunch of researchers working on AI/ML applications in the life sciences. 
