@@ -4,8 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-**Contact** ELLIS Heidelberg
-============================
+**Contact** ELLIS Life Heidelberg
+=================================
 
 Get in touch via email or phone below.
 
