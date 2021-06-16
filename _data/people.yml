@@ -2,8 +2,8 @@
   photo: os.png
   role: director
   websites:
-    - EMBL: https://www.embl.de/research/units/genome_biology/stegle/index.html
     - DKFZ: https://www.dkfz.de/en/bioinformatik-genomik-systemgenetik/
+    - EMBL: https://www.embl.de/research/units/genome_biology/stegle/index.html
   description: |
     Our interest lies in computational approaches for unravelling molecular and phenotypic variation.
     How do genetic background and environment jointly shape phenotypic traits or cause diseases?
