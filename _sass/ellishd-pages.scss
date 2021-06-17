@@ -1,6 +1,3 @@
-$shrink-factor: 0.8;
-$shrink-factor-sm: 0.5;
-
 // Common
 .brand {
   ul {
@@ -39,60 +36,18 @@ $header-unit-header-2-line-height: 4.4rem;
 
 #header-main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  user-select: none;
+  align-items: center;
+  justify-content: center;
   width: map-get($grid-breakpoints, "xl");
-  #header-img {
-    align-self: flex-start;
-    max-height: $header-img-max-height;
-    z-index: 1;
-    height: auto;
-    object-fit: contain;
-    user-drag: none; 
-    -webkit-user-drag: none;
-  }
+  height: 500px;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.35), rgba(0,0,0,0.3)), url('/assets/img/brand-top-long.jpg');
   #header-text {
-    font-variant-ligatures: none;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    position: relative;
-    margin-left: -50%;
-    text-align: right;
-    z-index: 99;
-    #unit-focus {
-      color: #333333;
-      font-weight: 800;
-      font-size: $header-unit-focus-font-size;
-      text-shadow: 1px 1px 3px #00000099;
-      padding-top: $header-unit-focus-padding-top;
-    }
-    #unit-location {
-      display: flex;
-      flex-direction: column;
-      padding-top: $header-unit-location-padding-top;
-      margin-left: 30%;
-      #unit-header-1 {
-        color: $primary;
-        text-shadow: 1px 1px 1px #00000055;
-        font-weight: 400;
-        font-size: $header-unit-header-1-font-size;
-        line-height: $header-unit-header-1-line-height;
-        padding-top: $header-unit-header-1-padding-top;
-      }
-      #unit-subheader {
-        color: #00000077;
-        font-size: $header-unit-subheader-font-size;
-        line-height: $header-unit-subheader-line-height;
-      }
-      #unit-header-2 {
-        color: $primary;
-        font-weight: 800;
-        font-size: $header-unit-header-2-font-size;
-        line-height: $header-unit-header-2-line-height;
-        text-shadow: 1px 1px 1px #00000055;
-      }
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    .lead {
+      color: #fff;
+      transform-origin: 50%;
     }
   }
 }
@@ -144,6 +99,21 @@ $header-unit-header-2-line-height: 4.4rem;
 //.carousel-inner img {
 //  height: 525px;
 //}
+
+#brand-logos {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+  p {
+    font-size: 12pt;
+    font-weight: 300;
+    opacity: 0.8;
+  }
+  img {
+    padding-top: 5px;
+    height: 90px;
+  }
+}
 
 // Main page news
 .newest-post-wrapper {
@@ -519,17 +489,3 @@ $header-unit-header-2-line-height: 4.4rem;
   }
 }
 
-#brand-logos {
-  margin-top: 70px;
-  margin-bottom: 40px;
-  text-align: center;
-  p {
-    font-size: 12pt;
-    font-weight: 300;
-    opacity: 0.8;
-  }
-  img {
-    padding-top: 5px;
-    height: 90px;
-  }
-}
