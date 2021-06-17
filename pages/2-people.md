@@ -4,10 +4,10 @@ title: People
 permalink: /people/
 ---
 
-**Our team** 
+**Meet our team** 
 ==============================
 
-Meet our team! We are a passionate bunch of researchers working on AI/ML applications in the life sciences. 
+We are a passionate bunch of researchers working on AI/ML applications in the life sciences. 
 
 <div class="container-fluid">
     <div class="row">
