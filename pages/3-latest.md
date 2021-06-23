@@ -4,8 +4,8 @@ title: Latest
 permalink: /latest/
 ---
 
-**Latest** at ELLIS Heidelberg
-==============================
+**Latest at ELLIS Life Heidelberg**
+===================================
 
 {% for post in site.posts %}
 <div class="news-tile">
