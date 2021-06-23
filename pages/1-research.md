@@ -32,3 +32,7 @@ Modern imaging yields terapixel data sets, but downstream analytics often requir
 **Interpretable low-dimensional representations and metric learning**  
 **Challenge:** dimensionality reduction and analysis of interrelations
 Complex multimodal high-dimensional data (e.g., single-cell multi-omics) require methods for dimensionality reduction and analysis of interrelations, from clusters/classes to continuous gradients to graphs or lineage trees.
+
+**Validation and Benchmarking for clinical translation**  
+**Challenge:** validation and benchmarking of algorithms for specific biomedical projects
+Commonly used machine learning metrics and validation strategies often fail to address aspects that are crucial to the application domain and do not allow for tailoring of future research strategies to domain-specific needs.
