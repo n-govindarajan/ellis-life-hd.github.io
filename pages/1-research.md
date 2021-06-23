@@ -10,16 +10,13 @@ permalink: /research/
 We are passionate about tackling the latest challenges in the application of Artificial Intelligence and Machine Learning in the life sciences. Enjoy this overview of our research objectives.
 
 **Unsupervised / Semi-supervised / Self-supervised learning**  
-**Challenge:** to tackle the lack of training dataIn medical imaging, and
-the classification of either cell types or diseases, there is no ground truth,
-and labelling data are sparse. This is a unique challenge in biological
-applications compared to other areas in AI research.
+**Challenge:** to tackle the lack of training data
+In medical imaging, and the classification of either cell types or diseases, there is no ground truth, and labelling data are sparse. This is a unique challenge in biological applications compared to other areas in AI research.
 
 
 **Explainability and uncertainty quantification**  
-**Challenge:** the need for insights into models beyond (average) predictive
-performanceWe aim to derive causal and/or mechanistic insights and quantify
-model uncertainty.
+**Challenge:** the need for insights into models beyond (average) predictive performance
+We aim to derive causal and/or mechanistic insights and quantify model uncertainty.
 
 **Privacy aware and federated learning**  
 **Challenge:** to preserve privacy while allowing aggregation of information
