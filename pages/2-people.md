@@ -38,8 +38,8 @@ We are a passionate bunch of researchers working on AI/ML applications in the li
                 <div class="people-photo"><img src="/assets/img/{{ p.photo }}"></div>
                 <div class="people-name">
                     <p>
-                    {% if p.role %}<span class="people-tag">{{ p.role | capitalize }}</span><br>{% endif %}
                     {{ p.name }}
+                    {% if p.role %}<span class="people-tag">{{ p.role | capitalize }}</span><br>{% endif %}
                     {% for g in p.websites %}
                         {% for h in g %}
                             {% if h[0] == 'DKFZ' %}
