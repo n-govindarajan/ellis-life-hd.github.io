@@ -4,7 +4,7 @@ title: Latest
 permalink: /latest/
 ---
 
-**Latest** at ELLIS Heidelberg
+**Latest at ELLIS Heidelberg**
 ==============================
 
 {% for post in site.posts %}
