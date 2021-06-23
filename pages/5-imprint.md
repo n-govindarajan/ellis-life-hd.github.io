@@ -36,6 +36,4 @@ The content, layout and graphics on this website are protected by copyright law.
 [Click here](https://www.dkfz.de/en/data-privacy-protection.html?m=1569945172&)
 
 **Acknowledgement:**  
-ELLIS Life Heidelberg would like to formally acknowledge Danila Bredikhin and Jeongbin Park for HTML code writing and the Communications team at DKFZ for editorial input.
-
-This website is hosted by Github Pages.
+ELLIS Life Heidelberg would like to formally thank Danila Bredikhin, Jeongbin Park and the DKFZ Strategic Communications and Public Relations team for their creative and editorial input. 
