@@ -11,8 +11,6 @@ carousels:
 {% include brand-top.html %}
 {% include brand-logos.html %}
 {% include news-shortlist.html %}
-{% include brand-research.html %}
 {% include brand-people.html %}
-
 {% include brand-institutes.html %}
 {% include brand-ellis.html %}
