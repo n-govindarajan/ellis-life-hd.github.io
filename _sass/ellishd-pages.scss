@@ -1,19 +1,9 @@
 // Common
-
 .small-contact {
   font-size: 10pt;
 }
 
-@media screen and (max-width: map-get($grid-breakpoints, "md")) {
-  .brand {
-    li {
-      font-size: 1.3em * $shrink-factor;
-    }
-  }
-}
-
 // Main page headline
-
 $header-img-max-height: 35rem;
 $header-unit-focus-font-size: 3.6rem;
 $header-unit-focus-padding-top: 3rem;
@@ -394,6 +384,16 @@ $header-unit-header-2-line-height: 4.4rem;
   &:hover {
     hr {
       @extend %hr-primary;
+    }
+  }
+}
+
+.people-website {
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+    li {
+      margin-bottom: 5px;
     }
   }
 }

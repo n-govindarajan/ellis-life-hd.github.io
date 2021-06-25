@@ -61,11 +61,11 @@ We are a passionate bunch of researchers working on AI/ML applications in the li
                 {{ p.description | markdownify }}
             </div>
         </div>
-        <div class="col-md-2 decorate-link">
+        <div class="col-md-2 people-website">
             <ul>
             {% for g in p.websites %}
                 {% for h in g %}
-                    <li><a href="{{ h[1] }}" target="_blank">{% if p.websites.size > 1 %}{{ h[0] }} {% endif %}Group Website</a></li>
+                    <li><a href="{{ h[1] }}" target="_blank" class="decorate-link">{% if p.websites.size > 1 %}{{ h[0] }} {% endif %}Group Website</a></li>
                 {% endfor %}
             {% endfor %}
             </ul>

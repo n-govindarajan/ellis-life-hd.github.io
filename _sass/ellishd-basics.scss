@@ -81,6 +81,13 @@ table {
   }
 }
 
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  .decorate-link {
+    font-size: 1.19em * $shrink-factor;
+  }
+}
+
+
 .dkfz {
   color: $dkfzblue !important;
   a {
