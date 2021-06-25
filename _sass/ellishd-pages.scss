@@ -6,16 +6,20 @@
   }
   li {
     margin-right: 1em;
-    font-size: 1.1em;
+    font-size: 1.3em;
     float: left;
     z-index: 99999;
   }
 }
 
+.small {
+  font-size: 10pt;
+}
+
 @media screen and (max-width: map-get($grid-breakpoints, "md")) {
   .brand {
     li {
-      font-size: 1.1em * $shrink-factor;
+      font-size: 1.3em * $shrink-factor;
     }
   }
 }
