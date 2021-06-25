@@ -14,7 +14,7 @@ We are a passionate bunch of researchers working on AI/ML applications in the li
         {% for p in site.data.people %}
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 py-vw1">
             <a href="#{{ p.name | slugify }}">
-                <div class="people-photowrap">
+                <div class="people-photowrap actionable-photowrap">
                     <div class="people-photo"><img src="/assets/img/{{ p.photo }}"></div>
                     <div class="people-name"><p>{{ p.name }}{% if p.role %}<br><span class="people-tag">{{ p.role | capitalize }}</span>{% endif %}</p></div>
                 </div>
