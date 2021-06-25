@@ -24,18 +24,18 @@ VAT ID: DE 143293537
 
 **Persons authorised to represent:**  
 Prof. Michael Baumann, Chairman and Scientific Director, DKFZ  
-Ms. Ursula Weyrich, Administrative Director, DKFZ 
+Ms. Ursula Weyrich, Administrative Director, DKFZ
 
 **Persons responsible for website content:**  
-Dr. Oliver Stegle, Head, Division of Computational Genomics and Systems Genetics, DKFZ
+Prof. Oliver Stegle, Head, Division of Computational Genomics and Systems Genetics, DKFZ
 
 **Copyright:**  
-The content, layout and graphics on this website are protected by copyright law. © Deutsches Krebsforschungszentrum (DKFZ). All rights reserved. Images of EMBL and Heidelberg University are shared with permission.
+The content, layout and graphics on this website are protected by copyright law.  
+© Deutsches Krebsforschungszentrum (DKFZ). All rights reserved.  
+Images of EMBL and Heidelberg University are shared with permission.
 
 **Data Privacy Statement:**  
 [Click here](https://www.dkfz.de/en/data-privacy-protection.html?m=1569945172&)
 
 **Acknowledgement:**  
 ELLIS Life Heidelberg would like to formally acknowledge Danila Bredikhin and Jeongbin Park for HTML code writing and the Communications team at DKFZ for editorial input.
-
-This website is hosted by Github Pages.

@@ -10,10 +10,13 @@ permalink: /contact/
 <hr>
 
 <div class="row">
-    <div class="col-md-6">
-        <p><strong>Unit Director:</strong><br>Dr. Oliver Stegle<br>Head, Division of Computational Genomics and Systems Genetics, B260<br>German Cancer Research Center (DKFZ)<br>Im Neuenheimer Feld 280<br>69120 Heidelberg<br>Germany<br><br>T: +49 (0) 6221 42 3598<br>E: <a href="mailto:o.stegle@dkfz-heidelberg.de">o.stegle@dkfz-heidelberg.de</a></p>
+    <div class="col-md-4">
+        <p>Dr. Oliver Stegle<br>Unit Director<br>T: +49 (0) 6221 42 3598<br>E: <a href="mailto:o.stegle@dkfz-heidelberg.de">o.stegle@dkfz-heidelberg.de</a></p>
     </div>
-    <div class="col-md-6">
-        <p><strong>Unit Coordinator:</strong><br>Dr. Nambirajan Govindarajan<br>Division of Computational Genomics and Systems Genetics, B260<br>German Cancer Research Center (DKFZ)<br>Im Neuenheimer Feld 280<br>69120 Heidelberg<br>Germany<br><br>T: +49 (0) 6221 42 2720<br>E: <a href="mailto:nambirajan.govindarajan@dkfz-heidelberg.de">nambirajan.govindarajan@dkfz-heidelberg.de</a></p>
+    <div class="col-md-4">
+        <p>Dr. Nambirajan Govindarajan<br>Unit Coordinator<br>T: +49 (0) 6221 42 2720<br>E: <a href="mailto:nambirajan.govindarajan@dkfz-heidelberg.de">nambirajan.govindarajan@dkfz-heidelberg.de</a></p>
+    </div>
+    <div class="col-md-4">
+        <p>Ms. Sabine Blum<br>Administrative Assistant<br>T: +49 (0) 6221 42 3601<br>E: <a href="mailto:s.blum@dkfz-heidelberg.de">s.blum@dkfz-heidelberg.de</a></p>
     </div>
 </div>
