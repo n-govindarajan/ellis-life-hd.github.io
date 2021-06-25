@@ -62,7 +62,7 @@
               {%- for path in site.pages -%}
               {%- if path.title -%}
               <li>
-                  <a href="{{ path.url | relative_url }}">{{ path.title | escape }}{% if path.url == page.url %}{% endif %}</a>
+                  <a href="{{ path.url | relative_url }}">{{ path.title | escape }}</a>
               </li>
               {% assign remainder = forloop.index | modulo: 5 %}
               {%- if remainder == 0 -%}
@@ -71,6 +71,9 @@
               {%- endif -%}
               {%- endif -%}
               {%- endfor -%}
+              <li>
+                <a href="https://www.dkfz.de/en/data-privacy-protection.html?m=1569945172&">Data Privacy</a>
+              </li>
             </ul>
             <ul class="col-md-4 col-sm-12">
               <li><a href="https://www.embl.de/" target="_blank">EMBL</a></li>
