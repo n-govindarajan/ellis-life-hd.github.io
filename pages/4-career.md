@@ -4,7 +4,7 @@ title: Career
 permalink: /career/
 ---
 
-**Career at ELLIS Life Heidelberg**
+**Work with us**
 ===================================
 
 Job posting
