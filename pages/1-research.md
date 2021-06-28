@@ -4,8 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-**Research at ELLIS Life Heidelberg**
-=====================================
+**Learn about our research**
+============================
 
 We are passionate about tackling the latest challenges in the application of Artificial Intelligence and Machine Learning in the life sciences. Enjoy this overview of our research objectives.
 
